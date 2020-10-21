@@ -6,6 +6,8 @@ basic.forever(function () {
             } else if (i % 2 == 1 && j % 2 == 1) {
                 led.plot(i, j)
             }
+            basic.pause(100)
         }
     }
+    basic.clearScreen()
 })
