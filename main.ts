@@ -4,6 +4,8 @@ basic.forever(function () {
             if (i % 2 == j % 2) {
                 led.plot(i, j)
             }
+            basic.pause(100)
         }
     }
+    basic.clearScreen()
 })
